@@ -1,0 +1,186 @@
+ @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+ 
+ :root {
+    --primary:  #6366F1;
+    --white:    #Eeefff;
+    --gray-800: #33354D;
+    --gray-900: #0B0F19;
+    --gray-600: #9397AD;
+    --gray-700: #565973;
+      /* font  */
+    --font-manrope: "Manrope", sans-serif;    
+ }
+
+
+ * {
+    font-family: var(--font-manrope);
+ }
+
+a {
+text-decoration: none;
+}
+
+
+p,h1,h2,h3,h4,h5,h6, {
+    margin: 0;
+    padding: 0; 
+}
+body {
+    background-color: #6365f12c ;
+}
+
+.myCheckbox {
+    display: flex !important;
+    position: relative !important;
+
+}
+
+.myCheckbox label.light{
+    position: absolute !important;
+    top: 0 !important;
+    left: -50px !important;
+    
+}
+.contact_us {
+    background: var(--primary);
+    color: var(--white);
+    padding: 9px 20px;
+    border-radius: 20px ;
+}
+
+h1 {
+    color: var(--white);
+}
+
+.common_btn {
+    padding: 0 32px;
+    border-radius: 8px;
+    background: var(--primary);
+    color: var(--white);
+    font-size: 16px;
+    text-align: center;
+    line-height: 52px;
+    cursor:grab !important;
+    border: none;
+    white-space: nowrap;
+}
+/* ###################################
+        navbar Section star
+######################################*/
+    #navbar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+     
+  
+/* ###################################
+        navbar Section End
+######################################*/
+
+/* ##############################
+        Banner Section Start
+################################ */
+    #banner {
+        padding: 204px;
+        padding-bottom: 96px;
+        background:url("../images/background\ images.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .banner_container {
+        display: flex;
+        gap: 24px;
+        align-items: start;
+
+    }
+    .left_side .icon_content {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+    }
+      .left_side .icon_content .icon_box {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        background: var(--white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+        .left_side .icon_content p {
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 1.4;
+            color: var(--font-manrope);
+        }
+
+     .banner_container .text h1 {
+        font-size: 72px;
+        font-weight: 800;
+        color: var(--gray-900);
+        line-height: 1.3;
+        padding-top: 16px;
+        padding-bottom: 64px;
+
+     }
+     .banner_container .text h1 span {
+        background: linear-gradient(90deg, #6366F1 0%, #8B5CF6 50%, #D946EF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+     }
+     .banner_container .bottom_text{
+        display: flex;
+        gap: 40px;
+        align-items: start;
+        padding-bottom: 434px;
+     }
+
+      .banner_content .bottom_text p{
+       font-size: 16px;
+       font-weight: 400;
+       color: var(--gray-700);
+       line-height: 1.6;
+       min-width: 434px;
+     }
+   
+     /* .left_side .icon_content p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.6;
+        color: var(--gray-700);
+        display: flex;
+
+     } */
+   
+     .left_side .icon_content .button p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.6;
+        color: var(--gray-700);
+        display: flex;
+
+     }
+/* ##############################
+        Banner Section End
+################################ */
+
+
+
+
+
+/* ##############################
+        Contact Page Start
+################################ */
+
+
+/* ##############################
+        COntact Page End
+################################ */
