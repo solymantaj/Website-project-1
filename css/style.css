@@ -3,6 +3,7 @@
  :root {
     --primary:  #6366F1;
     --white:    #Eeefff;
+    --gray-300: #E2E5F1;
     --gray-800: #33354D;
     --gray-900: #0B0F19;
     --gray-600: #9397AD;
@@ -26,7 +27,7 @@ p,h1,h2,h3,h4,h5,h6, {
     padding: 0; 
 }
 body {
-    background-color: #6365f12c ;
+    /* background-color: #6365f12c ; */
 }
 
 .myCheckbox {
@@ -177,10 +178,54 @@ h1 {
 
 
 /* ##############################
-        Contact Page Start
+        service section Start
 ################################ */
+     #service {
+        padding-top: 109px
+       
+     }
 
+     .service_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+
+ 
+     }
+      .service_box h3 {
+        padding-top: 24px;
+        padding-bottom: 12px;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 1.4;
+        color: var(--gray-900)
+      }
+       .service_box p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.6;
+        color: var(--gray-700);
+      }
+
+      #service .service_col {
+        border-right: 1px solid var(--gray-300);
+        
+
+      }
+
+      #service .service_col:last-child {
+        border-right: none;
+      }
+     .service_box .icon {
+
+     }
+
+     .service_box .icon img {
+
+     }
 
 /* ##############################
-        COntact Page End
+       secvice section End
 ################################ */
