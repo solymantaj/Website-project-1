@@ -391,3 +391,109 @@ h1 {
 /* ======================================
     Competencies Section End
 ========================================== */
+
+
+
+/* ----------------------
+Trusted part section start
+------------------------- */
+
+#trust .container {
+
+}
+
+
+
+
+
+
+#trust h2 {
+  font-size: 34px;
+  font-weight: 600;
+  font-family: var(--font-manrope);
+  color: var(--gray-900);
+}
+
+.singel_slide_item {
+  width: 196px;
+  height: 100px;
+  border: 1px solid #E2E5F1;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.singel_slide_item img {
+  filter: grayscale(100);
+  transition: all linear 0.4s;
+}
+
+.slider_wrapper {
+  overflow: hidden;
+}
+
+.slider_view {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 0;
+  scrollbar-width: none;
+}
+
+.slider_view::-webkit-scrollbar {
+  display: none;
+}
+
+.arrow_buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.arrow_buttons button {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.arrow_buttons button:hover {
+  background: #f0f0f0;
+}
+
+
+/* ----------------------
+Trusted part section end
+------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
